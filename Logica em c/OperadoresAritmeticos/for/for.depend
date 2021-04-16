@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1610578718 source:d:\programas\xampp\htdocs\treinaweb\formação php junior\logica em c\operadoresaritmeticos\for\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

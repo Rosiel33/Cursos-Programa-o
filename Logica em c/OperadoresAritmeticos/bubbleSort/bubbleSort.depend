@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1610581229 source:d:\programas\xampp\htdocs\treinaweb\formação php junior\logica em c\operadoresaritmeticos\bubblesort\main.c
+	<stdio.h>
+	<stdlib.h>
+

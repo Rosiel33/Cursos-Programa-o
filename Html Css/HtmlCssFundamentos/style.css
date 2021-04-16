@@ -1,0 +1,50 @@
+ h1 + span {
+    background-color: red;
+}
+input[readonly]{
+    background-color: red;
+}
+
+ a:active{   /*muda a cor ao ser pressionado*/
+    color:black;
+}
+
+input:checked + a{
+    color: chartreuse;  /* permite mudar cor do link apos selecionado o + informa que o link vem abaixo do checkbox */
+}
+
+h1:empty{ /* seleciona elementos h1 vazios*/
+    border: red;
+}
+input:disabled{
+    color: rosybrown;
+}
+input:focus{  /* seleciona o elemento input*/
+    background-color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+li:first-child{ /*  seleciona o primeiro elemento da lista o last pega o ultimo */
+    color: red;
+    background-color: blue;
+}
+
+li:nth-child(odd){ */ seleciona as linhas impares da tabela */
+    color:red;
+}
+
+li:not(:hover){
+    background-color: red;
+}
+
+h1 {
+    background-color: rgba(204, 123, 186, 0.452);
+    color: white;
+    border: 5px solid rgb(0, 140, 255);
+}
+h2{
+    color: #ffffff;
+}

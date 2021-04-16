@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas Absolutas e Relativas</title>
+</head>
+<body>
+<style>
+    body{
+        font: serif, Helvetica, sans-serif ;
+    }
+    p{
+        height: 20px;
+        width: 10em;
+        font-size: 20px;
+        letter-spacing: 1px; /*distancia entre letras*/
+        white-space: normal ;
+        }
+    
+    div{
+        display: inline-block;
+        width: calc(100% / 3); /* calcula medida do navegador*/
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+</style>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Velit ipsa officiis quae cumque ut sit iure animi voluptates
+          laboriosam. Dicta aspernatur, 
+        dolor aliquam odio quos sequi ex recusandae praesentium doloremque!</p>
+
+    <div></div><div></div><div></div>
+
+    <span>linha 1</span>
+    <span>linha 2</span>
+    <span>linha 3</span>
+
+<!--Medidas absolutas
+
+Unidades que são apresentadas da mesma forma em todos os lugares.
+
+    cm - centímetros ( 96px / 2.54 );
+    mm - milímetros ( 1/10cm );
+    q - ¼ de milímetro ( 1/40cm );
+    in - polegadas ( 2,54cm = 96px );
+    pc - pica ( 12pt ou 1/6in );
+    px - pixels ( 1/96in );
+    pt - pontos ( 1/71in ).
+
+Medidas Relativas
+
+Tem seu valor em relação ao valor de uma outra propriedade
+
+    % - porcentagem (tecnicamente % não é uma unidade, e sim, um tipo de dado);
+    em - relativo ao tamanho da fonte do elemento. Se o tamanho da fonte for 16px e você colocar 0.5em, o valor será igual a 8px;
+    rem - igual ao em, mas em relação ao tamanho da fonte do elemento raiz;
+    ex - altura da letra x da fonte do elemento;
+    ch - largura mais espaçamento em volta do número 0 da fonte do elemento;
+    vw - relativo à largura da viewport;
+    vh - relativo à altura da viewport.
+
+Outras Unidades
+
+Ângulos:
+
+    deg - grau ( um círculo possui 360deg );
+    grad - grado ( um círculo possui 400grad );
+    rad - radiano ( um círculo possui 2𝛑rad );
+    turn - volta ( um círculo possui 1turn ).
+
+Duração
+
+    s – segundos;
+    ms - milissegundos ( 1/1000s ).
+
+Frequência
+
+    Hz - Hertz ( número de ciclos por segundo );
+    kHz - KiloHertz ( 1000Hz ).
+
+Resolução
+
+    dpi - dots per inch ( pontos por polegada );
+    dpcm - dots per centimeter ( pontos por centímetro );
+    dppx - dots per pixel ( pontos por pixel ).
+
+Função calc()
+
+Permite fazer um cálculo para determinar um valor a ser passado a uma propriedade.-->
+
+</body>
+</html>

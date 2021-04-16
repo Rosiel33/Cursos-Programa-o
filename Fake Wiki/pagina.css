@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    padding: 12px 24px;
+    background-color: #aeacf0;
+}
+.logo-figura{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+
+}
+.logo-nome{
+    margin: 0px 12px;
+    font-size: 35px;
+}
+.rodape{
+    background-color: #aeacf0;
+    text-align: center;
+    padding: 12px;
+}
+a:not(:hover) {
+    color: #3366cc;
+    text-decoration: none;
+}
